@@ -1,0 +1,27 @@
+ name: RandomRespawn
+ version: ${project.version}
+ main: com.gitbub.betwowt.randomrespawn.Main
+ commands:
+    setSpawn:
+        description: 设置重生点.
+        usage:  /setspawn
+        permission: randomRespawn.use
+        permission-message: 没有randomRespawn.use权限
+
+    spawnlist:
+        description: 查看重生位置列表.
+        usage:  /spawnlist
+        permission: spawnlist.view
+        permission-message: 没有spawnlist.view权限
+
+    clearLastLocation:
+        description: 清除上一次保存的位置.
+        usage:  /clearLastLocation
+        permission: clearLastLocation.use
+        permission-message: 没有clearLastLocation.use权限
+
+    clearAllLocation:
+        description: 清除所有保存的位置信息.
+        usage:  /clearAllLocation
+        permission: clearAllLocation.use
+        permission-message: 没有clearAllLocation.use权限

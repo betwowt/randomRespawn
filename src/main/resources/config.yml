@@ -1,0 +1,10 @@
+
+mysql:
+    #数据库配置
+    database:
+    #用户名
+    username:
+    #密码
+    password:
+    #ip和端口
+    host:
